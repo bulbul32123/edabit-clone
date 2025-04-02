@@ -38,13 +38,18 @@ A fullstack JavaScript coding challenge platform similar to Edabit. This applica
 
 1. Clone the repository
 ```
-git clone <repository-url>
+git https://github.com/bulbul32123/edabit-clone.git
 cd edabit-clone
 ```
 
 2. Install backend dependencies
 ```
 cd backend
+npm install
+```
+2. Install frontend dependencies
+```
+cd frontend
 npm install
 ```
 
@@ -55,12 +60,6 @@ PORT=5000
 MONGO_URI=mongodb://localhost:27017/edabit-clone
 JWT_SECRET=your_secret_key
 NODE_ENV=development
-```
-
-4. Install frontend dependencies
-```
-cd ../frontend
-npm install
 ```
 
 ### Running the Application
